@@ -24,5 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void dev1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("button1", "click");
+        }
     }
 }
